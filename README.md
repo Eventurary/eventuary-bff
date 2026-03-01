@@ -6,14 +6,16 @@ BFF for Eventuary app
 
 1. Install npm version XXXXXX
 2. Setup .env using .env.example as a baseline
+
 ```shell
 cp .env.example .env
 ```
+
 3. Install dependencies
+
 ```shell
 npm install
 ```
-
 
 ## Run projects
 
