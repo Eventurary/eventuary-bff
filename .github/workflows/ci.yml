@@ -2,11 +2,13 @@ name: CI
 
 on:
   pull_request:
-  push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
-  build-test:
+  test:
     runs-on: ubuntu-latest
 
     strategy:
