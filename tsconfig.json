@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
+    "lib": ["ES2023"],
+    "module": "node16",
     "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "outDir": "dist",
-    "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "types": ["node", "vitest/globals"]
+  },
+  "ts-node": {
+    "files": true
   },
   "include": ["src"]
 }
