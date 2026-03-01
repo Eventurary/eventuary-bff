@@ -7,6 +7,7 @@ export default defineConfig({
     environment: "node",
     coverage: {
       reporter: ["text", "html"]
-    }
+    },
+    exclude: ["node_modules", "dist"]
   }
 });
